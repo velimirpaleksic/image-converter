@@ -1,0 +1,41 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\ImageConverter]
+"MUIVerb"="Image Converter"
+"Icon"="C:\\ImageConverter\\icon.ico"
+"SubCommands"="ImageConverter.PNG;ImageConverter.JPEG;ImageConverter.WEBP;ImageConverter.HEIC;ImageConverter.ICO"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\ImageConverter.PNG]
+@="Convert to PNG"
+"Icon"="C:\\ImageConverter\\icon.ico"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\ImageConverter.PNG\command]
+@="\"C:\\ImageConverter\\ImageConverter.exe\" \"%1\" png"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\ImageConverter.JPEG]
+@="Convert to JPEG"
+"Icon"="C:\\ImageConverter\\icon.ico"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\ImageConverter.JPEG\command]
+@="\"C:\\ImageConverter\\ImageConverter.exe\" \"%1\" jpeg"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\ImageConverter.WEBP]
+@="Convert to WEBP"
+"Icon"="C:\\ImageConverter\\icon.ico"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\ImageConverter.WEBP\command]
+@="\"C:\\ImageConverter\\ImageConverter.exe\" \"%1\" webp"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\ImageConverter.HEIC]
+@="Convert to HEIC"
+"Icon"="C:\\ImageConverter\\icon.ico"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\ImageConverter.HEIC\command]
+@="\"C:\\ImageConverter\\ImageConverter.exe\" \"%1\" heic"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\ImageConverter.ICO]
+@="Convert to ICO"
+"Icon"="C:\\ImageConverter\\icon.ico"
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\ImageConverter.ICO\command]
+@="\"C:\\ImageConverter\\ImageConverter.exe\" \"%1\" ico"
