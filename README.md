@@ -72,10 +72,6 @@ To create an executable (`.exe`) version of the program without a console window
 4. **Running the Program**:
    Now, you can double-click the `add-context-menu.reg` file to add it to context menu for easy access.
 
-## **Bugs & features** 🧩
-- [Report bug](https://github.com/velimirpaleksic/portfolio/issues)
-- [Request Feature](https://github.com/velimirpaleksic/portfolio/issues)
-
 ## **Contact** ✉
 - E-mail: [velimir.paleksic@gmail.com](velimir.paleksic@gmail.com).
 - VexSystems GitHub: [github.com/vexsystems](https://github.com/vexsystems).
